@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : # path of avatar image, e.g. "/assets/images/750x750.png"
   bio              : "If you're looking for smooth jazz, you came to the wrong place. But if you're looking for country, then you also came to the wrong place. "
   location         : "NY"
   email            :

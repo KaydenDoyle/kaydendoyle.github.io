@@ -20,8 +20,8 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Kayden Doyle"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Kayden Doyle"
+description              : "Musician • Composer • Performer"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -115,8 +115,8 @@ analytics:
 author:
   name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "If you're looking for smooth jazz, you came to the wrong place. But if you're looking for country, then you also came to the wrong place. "
+  location         : "NY"
   email            :
   links:
     - label: "Email"

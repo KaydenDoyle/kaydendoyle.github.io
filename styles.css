@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; }
+header { background: #333; color: #fff; display: flex; justify-content: space-between; align-items: center; padding: .5rem 1rem; position: sticky; top: 0; }
+.logo { font-size: 1.2rem; }
+.nav-menu input { display: none; }
+.hamburger { font-size: 2rem; cursor: pointer; display: none; }
+nav ul { list-style: none; display: flex; }
+nav ul li a { color: #fff; text-decoration: none; padding: .5rem 1rem; display: block; }
+nav ul li a.active { text-decoration: underline; }
+@media (max-width: 600px) {
+  .hamburger, nav ul { display: block; }
+  nav ul { display: none; flex-direction: column; background: #444; }
+  nav input:checked + .hamburger + ul { display: flex; }
+}
+main { padding: 1rem; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap: 10px; }
+.gallery img { width: 100%; height: auto; border-radius: 4px; }
